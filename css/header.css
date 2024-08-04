@@ -22,7 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     margin: 0;
 }
 
@@ -31,7 +31,6 @@
     font-family: var(--font-fira);
     font-size: var(--size-links);
     display: block;
-    padding: 8px 15px;
     margin: 5px 0px;
     border-radius: 5px;
 }
@@ -42,8 +41,14 @@
 }
 
 @media (max-width: 800px) {
+    
+    .menu-lista {
+        gap: 15px;
+    }
+    
     .menu-lista a {
         background-color: var(--color-preto);
+        padding: 8px 15px;
     }
 
     .menu-lista a:hover {
