@@ -10,8 +10,8 @@
     --size-titulo: 4rem;
     --size-subtitulo: 3rem;
     --size-texto: 2rem;
-    --size-links: 1.75rem;
-    --size-texto-secundario: 1.5rem;
+    --size-links: 1.5rem;
+    --size-texto-secundario: 1rem;
 }
 
 * {
