@@ -1,0 +1,79 @@
+.portfolio {
+    background-color: var(--color-amarelo);
+}
+
+.portfolio-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 10px;
+}
+
+.portfolio-container .subtitulo {
+    color: var(--color-preto);
+    font-size: var(--size-subtitulo);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: var(--font-fira);
+    margin-bottom: 40px;
+}
+
+.portfolio-container .subtitulo::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 26px;
+    background-color: var(--color-preto);
+    margin-right: 20px;
+}
+
+.portfolio-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.portfolio-fotos .foto {
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-shrink: 1;
+    height: 300px;
+    width: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-fotos .foto-1 {
+    background-image: url("../img/fotos/tatuagens/tatuagem-new-school-1.jpg");
+}
+
+.portfolio-fotos .foto-2 {
+    background-image: url("../img/fotos/tatuagens/tatuagem-new-school-2.jpg");
+}
+
+.portfolio-fotos .foto-3 {
+    background-image: url("../img/fotos/tatuagens/tatuagem-fine-line.jpg");
+}
+
+.portfolio-fotos .foto-4 {
+    background-image: url("../img/fotos/tatuagens/tatuagem-fine-line-2.jpg");
+}
+
+.portfolio-fotos .foto-5 {
+    background-image: url("../img/fotos/tatuagens/tatuagem-fine-line-3.jpg");
+}
+
+.portfolio-fotos .foto-6 {
+    background-image: url("../img/fotos/tatuagens/tatuagem-old-school.jpg");
+}
+
+.portfolio-fotos .foto-7 {
+    background-image: url("../img/fotos/tatuagens/tatuagem-realismo.jpg");
+}
+
+@media (max-width: 840px) {
+    .portfolio-container .subtitulo {
+        font-size: var(--size-subtitulo-2);
+    }
+}
+
