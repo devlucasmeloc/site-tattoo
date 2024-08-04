@@ -10,7 +10,7 @@
     --size-titulo: 4rem;
     --size-subtitulo: 3rem;
     --size-texto: 2rem;
-    --size-links: 1.5rem;
+    --size-links: 1.25rem;
     --size-texto-secundario: 1rem;
 }
 
@@ -30,7 +30,7 @@ img {
     display: block;
 }
 
-ul {
+ul, li{
     list-style: none;
 }
 
