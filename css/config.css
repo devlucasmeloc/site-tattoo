@@ -1,0 +1,39 @@
+:root {
+    --color-preto: #000000;
+    --color-preto-suave: #191919;
+    --color-preto-transparente: #1C1C1CA8;
+    --color-amarelo: #FFAF38;
+    --color-amarelo-escuro: #633C01;
+    --color-branco: #FFFFFF;
+    --font-poppins: "Poppins", sans-serif;
+    --font-fira: "Fira Sans", sans-serif;
+    --size-titulo: 4rem;
+    --size-subtitulo: 3rem;
+    --size-texto: 2rem;
+    --size-links: 1.75rem;
+    --size-texto-secundario: 1.5rem;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-poppins);
+    color: var(--color-preto);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
