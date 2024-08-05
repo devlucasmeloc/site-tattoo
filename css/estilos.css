@@ -56,6 +56,9 @@
     .estilos-container .subtitulo {
         font-size: var(--size-subtitulo-2);
     }
+    .estilos-container .subtitulo::before {
+        height: 13px;
+    }
 }
 
 @media (max-width: 600px) {

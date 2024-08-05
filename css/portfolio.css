@@ -75,5 +75,8 @@
     .portfolio-container .subtitulo {
         font-size: var(--size-subtitulo-2);
     }
+    .portfolio-container .subtitulo::before {
+        height: 13px;
+    }
 }
 
