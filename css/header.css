@@ -1,5 +1,5 @@
 .menu-bg {
-    background-color: var(--color-preto-suave);
+    background-color: var(--color-preto);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -15,7 +15,7 @@
 }
 
 .logo {
-    margin: 10px 0px;
+    margin: 10px 10px 10px 0px;
 }
 
 .menu-lista {
@@ -32,7 +32,6 @@
     font-size: var(--size-links);
     display: block;
     margin: 5px 0px;
-    border-radius: 5px;
 }
 
 .menu-lista a:hover {
@@ -42,12 +41,17 @@
 
 @media (max-width: 800px) {
     
+    .menu-container {
+        justify-content: center;
+    }
+
     .menu-lista {
         gap: 15px;
+        justify-content: center;
     }
     
     .menu-lista a {
-        background-color: var(--color-preto);
+        background-color: var(--color-preto-suave);
         padding: 8px 15px;
     }
 
@@ -56,4 +60,12 @@
         color: var(--color-amarelo-escuro);
         transition: 300ms;
     }
+}
+
+@media (max-width: 600px) {
+    
+    .logo {
+        margin-right: 0px;
+    }
+
 }
