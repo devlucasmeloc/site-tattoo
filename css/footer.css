@@ -78,12 +78,6 @@
     text-decoration: none;
 }
 
-@media (max-width: 700px) {
-    .localizacao img {
-        
-    }
-}
-
 @media (max-width: 980px) {
     
     .items-footer {
