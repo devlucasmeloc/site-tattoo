@@ -9,10 +9,10 @@
     --color-vermelho: #FE6B6B;
     --font-poppins: "Poppins", sans-serif;
     --font-fira: "Fira Sans", sans-serif;
-    --size-titulo: 4rem;
-    --size-subtitulo: 3rem;
+    --size-titulo: 3.25rem;
+    --size-subtitulo: 2.25rem;
     --size-subtitulo-2: 1.75rem;
-    --size-texto: 1.5rem;
+    --size-texto: 1.25rem;
     --size-links: 1.25rem;
     --size-texto-secundario: 1rem;
 }
